@@ -1,0 +1,24 @@
+class p16 
+{
+	public static void main(String[] args) 
+	{
+		int even_num = 0, odd_num = 0;
+		int i=1;
+		while (i<=20)
+		{
+			if (i%2==0)
+			{
+				even_num += i;
+				
+			}
+			else
+			{
+				odd_num +=i;
+				
+			}
+			i++;
+		}
+		System.out.println(even_num);
+		System.out.println(odd_num);
+	}
+}
