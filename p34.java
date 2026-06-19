@@ -3,7 +3,7 @@ class p34
 	public static void main(String[] args) 
 	{
 		int i=1;
-		while (i<=3)
+		while (i<=3)	
 		{
 			int j = 3;
 			while (j>=i)
@@ -22,7 +22,7 @@ class p34
 				System.out.print("*");
 				y++;
 			}
-			if(i==2 || i==3){
+			if(i>1){
 			int x = 1;
 			while (x<=i-1)
 			{

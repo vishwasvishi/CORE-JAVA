@@ -22,7 +22,7 @@ class p34
 				System.out.print("*");
 				y++;
 			}
-			if(i==2){
+			if(i>1){
 			int x = 1;
 			while (x<=i-1)
 			{
