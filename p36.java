@@ -21,7 +21,7 @@ class p36
 				
 
 			}
-			for (int x=2; x>=i ; x-- )
+			for (int x=2 ; x>=i ; x-- )
 			{
 				if (i==1 && x==2)
 				{
@@ -34,5 +34,6 @@ class p36
 			}
 			System.out.println("");
 		}
+
 	}
 }

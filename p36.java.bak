@@ -2,7 +2,7 @@ class p36
 {
 	public static void main(String[] args) 
 	{
-		for (int i=1; i<=3 ; i++ )
+		for (int i=1; i<=5 ; i++ )
 		{
 			for (int j=1; j<=i ; j++ )
 			{
@@ -10,9 +10,9 @@ class p36
 				
 
 			}
-			for (int y=3; y>=i ; y-- )
+			for (int y=5; y>=i ; y-- )
 			{
-				if ((i==1 && y==2)|| (i==2 && y==2) || (i==1 && y==3))
+				if ((i==1 && y==2)|| (i==2 && y==2) || (i==1 && y==1))
 				{
 				System.out.print(" ");
 				}
@@ -21,7 +21,7 @@ class p36
 				
 
 			}
-			for (int x=2; x>=i ; x-- )
+			for (int x=4 ; x>=i ; x-- )
 			{
 				if (i==1 && x==2)
 				{
@@ -34,5 +34,6 @@ class p36
 			}
 			System.out.println("");
 		}
+
 	}
 }
