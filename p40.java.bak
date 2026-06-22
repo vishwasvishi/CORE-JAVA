@@ -1,0 +1,44 @@
+class p40 
+{
+	public static void main(String[] args) 
+	{
+		int[] a ={ 2,12,222,22};
+		int sum = 0;
+		int avr = 0;
+		int max= a[0];
+		int min = a[0];
+		int le =a[0] ,sle=a[0];
+		int samll = a[0] , secsamll =a[0];
+		for(int lv:a){
+			sum +=lv;//sum
+			if (lv>max)//max
+				max=lv;
+			if (lv<min)//min
+				min=lv;
+/* 2nd largest no*/
+			if (lv>le){
+				sle=le;
+				le=lv;
+			}
+			else if(lv>sle)
+				sle=lv;
+
+			if (lv<samll){
+				secsamll=samll;
+				samll=lv;
+			}
+			else if(lv<secsamll)
+				secsamll=lv;
+		}
+		avr=sum/a.length;//avrage
+			System.out.println(sum);
+			System.out.println(max);
+			System.out.println(min);
+			System.out.println(le);
+			System.out.println(sle);
+			System.out.println(samll);
+			System.out.println(secsamll);
+			System.out.print(avr);
+
+	}
+}
