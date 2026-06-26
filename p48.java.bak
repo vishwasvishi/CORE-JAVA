@@ -18,7 +18,7 @@ class p48
 	int rev;
 	for ( rev=0;n!=0 ;n/=10 )
 	{
-		rev = (rev*10)+(n%=10);
+		rev = (rev*10)+(n%10);
 	}
 	System.out.println(i);
 	System.out.println(sum);

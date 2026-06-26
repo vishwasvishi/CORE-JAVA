@@ -1,0 +1,25 @@
+class  auto
+{
+	public static void main(String[] args) 
+	{
+		int num=4;
+		int temp=num;
+		int sq =temp*temp;
+		boolean flag=true;
+		for (;temp!=0 ;temp/=10 )
+		{
+			if(temp%10 == sq%10){
+				temp/=10;
+				sq/=10;
+			}else{
+				flag=false;
+				break;
+				}
+		}
+		if(flag)
+			System.out.println(num+"automarphic!");
+		else
+			System.out.println(num+"not automarphic!");
+
+	}
+}
