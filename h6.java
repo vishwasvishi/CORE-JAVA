@@ -1,6 +1,7 @@
 class h6 
 {
-	public static boolean perfect(int num){
+	public static boolean perfect(int num)
+		{
 		int sum=0;
 		if (num<=1)
 		{
