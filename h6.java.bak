@@ -13,7 +13,6 @@ class h6
 				 sum+=i;
 			}
 		}
-		
 		if (num==sum)
 		{
 			return true;
