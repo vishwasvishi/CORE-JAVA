@@ -1,0 +1,17 @@
+class m8 
+{
+	static {
+			System.out.println("from static block m8");
+	}
+
+	static int b=200;
+
+	public static void main(String[] args) 
+	{
+		System.out.println("from main");
+		System.out.println(b);
+		System.out.println("------------------------------");
+				System.out.println(m7.a);
+				m7.test();
+	}
+}

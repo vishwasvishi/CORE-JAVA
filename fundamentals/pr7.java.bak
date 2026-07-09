@@ -1,0 +1,15 @@
+class pr7 
+{
+	public static void main(String[] args) 
+	{
+		int a=10, b=18;
+		if (a>b)
+		{
+			System.out.print(a+"is greater");
+		}
+		if (b>a)
+		{
+			System.out.print(b+"is greater");
+		}
+	}
+}

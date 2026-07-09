@@ -1,0 +1,19 @@
+class p38 
+{
+	public static void main(String[] args) 
+	{
+		int[] b = {1,2,23,2};
+		int sum = 0;
+		int pro = 1;
+		for(int i:b){
+			 sum +=i;
+			 pro *=1;
+			System.out.println(i);
+		}
+		System.out.println("----------------");
+
+		System.out.println(sum);
+		System.out.println(pro);
+
+	}
+}
