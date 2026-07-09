@@ -1,0 +1,17 @@
+class pale 
+{
+	public static void main(String[] args) 
+	{
+		int num =121;
+		int temp = num;
+		int rev;
+		for (rev=0;temp!=0 ;temp/=10 )
+		{
+			rev = rev *10 +(temp%10);
+		}
+		if(num==rev)
+			System.out.println(num+" is a palendorm");
+		else
+			System.out.println(num+"  is not a palendorm");
+	}
+}

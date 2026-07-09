@@ -1,0 +1,27 @@
+class p43 
+{
+public static int add(int a, int b, int c) 
+	{
+		int sum =a+b+c;
+		return sum;
+	}
+	public static double multi(int a, float b, double c) 
+	{
+		double pro =a*b*c;
+		return pro;
+	}
+		public static String concat(String a, char b, boolean c) 
+	{
+		String w =a+b+c;
+		return w;
+	}
+	public static void main(String[] args) 
+	{
+		int s1 = add(10,20,30);
+		System.out.println(s1);
+
+		double p1 = multi(10,2.0f,746.35d);
+		System.out.println(p1);
+		System.out.println(concat("abc",'@',true));
+	}
+}

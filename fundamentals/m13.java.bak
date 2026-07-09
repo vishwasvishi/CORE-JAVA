@@ -1,0 +1,9 @@
+class m13 
+{
+	int a=100,b=200;
+	public static void main(String[] args) 
+	{
+		m13 ob=new m13();
+		System.out.println("Hello World!");
+	}
+}

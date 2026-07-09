@@ -1,0 +1,29 @@
+class p28 
+{
+	public static void main(String[] args) 
+	{
+		int num = 23;
+		int temp = num;
+		int sq = temp * temp;
+		boolean flag = true;
+		while (temp != 0)
+		{
+			if (temp%10 == sq%10)
+			{
+				temp /= 10;
+				sq /= 10;
+			}
+			else{
+			flag = false;
+			break;
+			}
+		}
+		if (flag)
+		{
+			System.out.print(num+" is a autyomarphic no");
+		}
+		else
+			System.out.print(num+" is not a autyomarphic no");
+
+	}
+}

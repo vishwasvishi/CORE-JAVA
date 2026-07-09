@@ -1,0 +1,12 @@
+class  p42
+{
+	public static void main(String[] hero) 
+	{
+		System.out.println("-----------------------");
+		System.out.println(hero[0]);
+		System.out.println(hero[1]);
+		System.out.println(hero[2]);
+		System.out.println(hero[3]);
+		
+	}
+}

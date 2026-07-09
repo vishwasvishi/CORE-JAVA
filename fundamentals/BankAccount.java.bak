@@ -1,0 +1,34 @@
+class BankAccount 
+{
+	long accountNumber;
+	String accountHolder;
+	long balance;
+	public BankAccount(long accountNumber, String accountHolder, long balance){
+		this.accountNumber=accountNumber;
+		this.accountHolder=accountHolder;
+		this.balance=balance;
+	}
+	public void deposit(int amount){
+			balance += amount;
+	}
+	public void withdraw(int amount){
+		if (amount <=balance)
+			balance -= amount;
+		else
+			System.out.println("insufficent balance");
+	}
+	public long checkBalance(){
+		return balance;
+	}
+	public static void main(String[] args) 
+	{
+		BankAccount b=new BankAccount(537226536,"abc",20000);
+		System.out.println(b.accountNumber+","+b.accountHolder+","+b.balance);
+		b.deposit(1000);
+		System.out.println(b.balance);
+		b.withdraw(10000);
+		System.out.println(b.balance);
+		b.withdraw(12000);
+		b.checkBalance();
+	}
+}
