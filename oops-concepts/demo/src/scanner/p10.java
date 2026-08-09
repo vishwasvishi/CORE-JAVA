@@ -8,7 +8,6 @@ public class p10 {
         
         
         Scanner sc = new Scanner(System.in);
-
         
         System.out.println("Enter the Integer data:");
         int a = sc.nextInt();
