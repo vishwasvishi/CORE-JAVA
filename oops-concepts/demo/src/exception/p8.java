@@ -1,4 +1,4 @@
-/* using propogation*/
+/* using propogation */
 package exception;
 
 public class p8 {
