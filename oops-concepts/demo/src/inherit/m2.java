@@ -1,6 +1,9 @@
 package inherit;
 
 public class m2 extends m1 {
+	public static void test1() {
+    	System.out.println("i am home daddy");
+    }
 	public void test() {
 		System.out.println("from test m2");
 
@@ -14,6 +17,7 @@ public class m2 extends m1 {
 		System.out.println("------------------------");
 		m1 ob1=ob;
 		ob1.test();
+		ob.test1();
 
 	}
 
