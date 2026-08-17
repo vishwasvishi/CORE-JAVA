@@ -11,7 +11,7 @@ public class p4 {
         v.add(95.5f);
         v.add(true);
         v.add("Disha");
-        v.add(null);77
+        v.add(null);
         System.out.println(v);
         Enumeration<Object> p = v.elements();
         
